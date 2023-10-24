@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anmälan.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Bättre Webb</title>
+</head>
+<body>
+	<div class="welcome">
+    <header>
+      <h1>Matilda 30 år!</h1>
+	  <p>Varmt välkommen till min officiella födelsedagssida! Här anmäler du dig till den eller de aktiviteter du vill vara med på. Du hittar också information kring hållpunkter och meny samt svar på vanliga frågor</p>
+	  <img src="Bilder/matildatT2.png">
+  </header>
+</div>
+
+    <section id="reg" class="reg">
+        <form>
+            <h2>Anmäl dig till 30-årsfirandet här:</h2>
+                    <section class="form-section">
+                         <label class="form-label"for="form-fname"> Ditt namn: </label>
+                         <input id="form-fname" type="text" required pattern="[A-Za-zåäöÅÄÖ]+" value="" placeholder="Matilda" />
+                     </section>
+					 
+					 <section class="form-section">
+						<div class="delta">Jag deltar på Prison Island:
+							<label class="container">Ja
+							  <input class="box" type="radio" name="prisonisland" value="Ja" checked="checked">
+							  <span class="checkmark"></span>
+							</label>
+							<label class="container">Nej
+							  <input type="radio" name="prisonisland" value="Nej">
+							  <span class="checkmark"></span>
+							</label>
+						  </div>
+					</section>
+					<section class="form-section">
+						<label class="form-label" for="storlek">Tröjstorlek</label>
+						<select id="storlek" name="storlek">
+							<option value="" disabled selected>- Välj - </option>
+							<option Value="s">Small</option>
+							<option Value="m">Medium</option>
+							<option Value="l">Large</option>
+							<option Value="xl">X-Large</option>
+						</select>
+					</section>
+					<section class="form-section">
+						<div class="delta">Jag deltar på middag:
+							<label class="container">Ja
+								<input class="box" type="radio" name="participation" value="Ja" checked="checked">
+								<span class="checkmark"></span>
+							  </label>
+							  <label class="container">Nej
+								<input type="radio" name="participation" value="Nej">
+								<span class="checkmark"></span>
+							  </label>
+						</div>
+					</section>
+					<!--MATSEKTION-->
+            <section class="form-section">
+            <label class="form-label" for="Förrätt">Förrätt</label>
+            <select id="förrätt" name="förrätt">
+				<option value="" disabled selected>- Välj - </option>
+                <option Value="Burrata">Burrata</option>
+                <option Value="Toast Skagen">Toast Skagen</option>
+                <option Value="Steak tartare">Steak tartare</option>
+				<option Value="Aspargus ">Aspargus</option>
+				<option Value="Ingen förrätt">Ingen förrätt</option>
+            </select>
+        </section>
+
+		<section class="form-section">
+            <label class="form-label" for="deltaga">Huvudrätt</label>
+            <select id="huvudrätt" name="huvudrätt">
+				<option value="" disabled selected>- Välj - </option>
+                <option Value="Cod Loin">Cod Loin</option>
+                <option Value="Biff Rydberg">Biff Rydberg</option>
+                <option Value="Steak-Frites">Steak-Frites</option>
+				<option Value="Risotto ">Risotto </option>
+				<option Value="Ingen huvudrätt">Ingen huvudrätt</option>
+            </select>
+        </section>
+
+		<section class="form-section">
+            <label class="form-label" for="deltaga">Efterrätt</label>
+            <select id="efterrätt" name="efterätt">
+				<option value="" disabled selected>- Välj - </option>
+                <option Value="Crème Brûlée">Crème Brûlée</option>
+                <option Value="Brownie ">Brownie </option>
+                <option Value="Apple Pie">Apple Pie</option>
+				<option Value="Ingen dessert">Ingen dessert</option>
+            </select>
+        </section>
+
+        <section class="form-section">
+            <label class="form-label" for="form-allergier"> Allergier </label>
+            <input id="form-allergier" type="text"  value="" placeholder="Ex. Nötallergi" />
+        </section>
+		<button type="submit">Skicka in din anmälan</button>
+        </section>
+
+	<section class="how">
+        <div class="welcome">
+			<h2>The details</h2>
+			<h3>Var?</h3>
+			<p class="information">Göteborg.</p>
+
+			<h3>När?</h3>
+			<p class="information">Lördag 25 november, med start klockan 14:45.</p>
+
+			<h3>Vad?</h3>
+			<p class="information">Prison Island och födelsedagsfika, följt av fördrink och middag.</p>
+
+			<h3>Kostnad?</h3>
+			<p class="information">395 kr för Prison Island. Du betalar också själv för den mat & dryck du vill äta på middagen. (Du behöver inte tänka på någon present!)</p>
+
+			<h3>Känns det dyrt?</h3>
+			<p class="information">Du kan välja att vara med på allt eller på bara en av aktiviteterna. Från mig får du fika, lagemblem, fördrink och andra överraskningar.♥ </p>
+		</div>
+	</section>
+        </form>
+    </section>
+	<section class="schema">
+		<div class="welcome">
+			<h2>Schema</h2>
+			<h3>14:45</h3>
+			<p class="information">Samling vid hållplatsen <b>Krokslätts torg</b>, Mölndal.</p>
+
+			<h3>15:00–18:00</h3>
+			<p class="information">Spänn musklerna och gnugga geniknölarna, för på <b>Prison Island</b> ska det tävlas i lag. Födelsedagsfika ingår!</p>
+
+			<h3>18:00–20:00</h3>
+			<p class="information">Fria aktiviteter! Kanske vill du duscha, ta en förfördrink eller fixa dig inför kvällen? Då är detta din tid!</p>
+
+			<h3>20:10</h3>
+			<p class="information">Samling på <b>Järntorget</b>. Härifrån är det en liten promenad till restaurangen.
+			</p>
+
+			<h3>20:15</h3>
+			<p class="information">Dags för fördrink och middag! <b>Restaurang</b> avslöjas samma dag. Mat behöver förbeställas och du hittar meny längre ned på sidan.</p>
+		</div>
+	</section>
+	<section class="menu">
+        <div class="welcome">
+			<h2> Meny </h2>
+			<p class="information">
+				Middag behöver förbeställas. Se menyn nedan och gör sedan ditt val i anmälningsformuläret.<br><br>
+
+Förrätt och huvudrätt måste förbeställas. Dessert behöver inte förbeställas utan kan beställas på plats, men om du vet vilken dessert du vill ha uppmanas du att välja den i anmälning	sformuläret.
+
+<h3>Förrätter</h3><br>
+<p class="information">
+<b>Burrata</b><br>
+Marinerade tomater, basilika, krutonger (155 kr)</p>
+<br>
+<p class="information">
+<b>Toast Skagen ½</b><br> 
+Skagenröra, smörstekt bröd, citron (165 kr)
+</p><br>
+<p class="information">
+<b>Steak Tartare ½</b><br> 
+Klassisk råbiff med rödbetor, kapris, pepparrot, lök, dijon, äggula (165 kr)</p>
+<br>
+<p class="information">
+<b>Asparagus</b><br>
+Grillad sparris, hollandaise, brynt smör, marconamandlar (135 kr)</p><br>
+
+<h3>Huvudrätter</h3><br>
+<p class="information">
+<b>Cod Loin</b><br>
+Ångad torskrygg, räkor, ägg, pepparrot, brynt smör, potatis (295 kr)</p>
+<br>
+<p class="information">
+<b>Biff Rydberg</b><br>
+Ryggbiff, senapscrème, äggula, lök, potatis (265 kr)</p><br>
+<p class="information">
+<b>Steak-Frites</b><br>
+Grillad entrecôte, rödvinssås, tomat- och löksallad, sauce bearnaise, pommes frites (325 kr)</p><br>
+<p class="information">
+<b>Risotto</b><i>(kan beställas vegan)</i><br>
+Trattkamtareller, ostronskivling, parmesan, tryffel (245 kr)</p><br>
+<h3>Desserter</h3><br>
+<p class="information">
+<b>Crème Brûlée</b><br>
+Klassisk crèma brûlée (105 kr)</p><br>
+<p class="information">
+<b>Brownie</b><br>
+Björnbärssorbet, brownie, chokladcrème (125 kr)</p><br>
+<p class="information">
+<b>Apple Pie</b><br>
+Bakat äpple, havrecrust, vaniljglass, salt kolasås (125 kr)</p><br>
+
+			</p>
+		</div>
+</section>
+	<section class="welcome">
+		<h2>Vanliga frågor & svar</h2><br>
+		<p class="information">
+		<b>Vad ska jag ta med till Prison Island?</b><br>
+		Oömma kläder är en fördel. Räkna med att bli varm då utmaningarna kan vara fysiskt krävande.
+		</p><br>
+		<p class="information">
+		<b>Kan jag duscha på Prison Island?</b><br>
+Ja, det kan du. Om du inte vill eller hinner åka hem mellan Prison Island och middagen, kan du alltså duscha här.</p><br>
+<p class="information">
+	<b>Behöver jag köpa present?</b><br>
+	Nej, det behöver du naturligtvis inte.</p><br>
+<p class="information">
+	<b>Måste jag vara med på allt?</b><br>
+	Nej, du kan välja att vara med på bara den ena eller den ena aktiviteten (Prison Island eller middagen) om du inte vill vara med på allt.</p><br>
+<p class="information">
+	<b>Får jag ta med en kompis/partner?</b><br>
+	Privat inbjudan gäller. Kontakta Matilda om du vill ta med en +1.</p><br>
+	<p class="information">
+	<b>Kommer det finnas sjukvård på plats?</b><br>
+	Ja, Dr Swedenfeldt kommer finnas med vid behov av akut sjukvård.</p><br>
+	
+	</section>
+</body>
+</html>
