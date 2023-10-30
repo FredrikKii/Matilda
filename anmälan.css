@@ -32,11 +32,13 @@ a {
   h3 {
 	font-family: 'DM Serif Display', serif;
 	text-decoration: underline;
+	font-size: 2em;
   }
 
 p {
   text-align: center;
   margin: 1em;
+  font-size: 1.2em;
   
 }
 img {

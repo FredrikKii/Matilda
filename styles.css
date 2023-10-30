@@ -138,3 +138,27 @@ margin-top: 10px;
 	background-color: orange;
 }
 
+input {
+	scale: 140%
+}
+select {
+	scale: 140%
+}
+span {
+	scale: 140%;
+}
+label {
+	font-size: 1.1em;
+}
+
+p {
+font-size: 1.6em;
+}
+
+.delta1 {
+	font-size: 1.2em;
+}
+
+.delta {
+	font-size: 1.2em;
+}
