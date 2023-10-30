@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="anmälan.css">
     <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="hamburger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Titillium+Web&display=swap" rel="stylesheet">
-    <title>Bättre Webb</title>
+    <title>Matilda 30 år!</title>
 </head>
 <body>
-	<div class="welcome">
+	<nav class="navbar">
+		<ul class="menu-toggle">
+			<li><a href="#how">The details</a></li>
+			<li><a href="#schema">Schema</a></li>
+			<li><a href="#menu">Meny</a></li>
+			<li><a href="#welcome">FAQ</a></li>
+		</ul>
+	</nav>
+	<div id="scrollButton" class="welcome">
     <header>
       <h1>Matilda 30 år!</h1>
-	  <p>Varmt välkommen till min officiella födelsedagssida! Här anmäler du dig till den eller de aktiviteter du vill vara med på. Du hittar också information kring hållpunkter och meny samt svar på vanliga frågor</p>
+	  <p>Varmt välkommen till min officiella födelsedagssida! Här anmäler du dig till den eller de aktiviteter du vill vara med på. Du hittar också information kring hållpunkter och meny samt svar på vanliga frågor.</p>
 	  <img src="Bilder/matildatT2.png">
+	  <p>Mobil: 070-590 48 76</p>
   </header>
 </div>
 
@@ -28,20 +38,21 @@
                      </section>
 					 
 					 <section class="form-section">
-						<div class="delta">Jag deltar på Prison Island:
+						<div class="delta1">Jag deltar på Prison Island:
 							<label class="container">Ja
-							  <input class="box" type="radio" name="prisonisland" value="Ja" checked="checked">
+							  <input class="box" type="radio" name="options" value="yes" checked="checked">
 							  <span class="checkmark"></span>
 							</label>
 							<label class="container">Nej
-							  <input type="radio" name="prisonisland" value="Nej">
+							  <input type="radio" name="options" value="no">
 							  <span class="checkmark"></span>
 							</label>
 						  </div>
 					</section>
 					<section class="form-section">
-						<label class="form-label" for="storlek">Tröjstorlek</label>
-						<select id="storlek" name="storlek">
+					<section class="form-section2">
+						<label class="form-label" id="storlek" name="storlek" for="storlek">Tröjstorlek</label>
+						<select for="storlek" id="storlek" name="storlek">
 							<option value="" disabled selected>- Välj - </option>
 							<option Value="s">Small</option>
 							<option Value="m">Medium</option>
@@ -49,6 +60,7 @@
 							<option Value="xl">X-Large</option>
 						</select>
 					</section>
+				</section>
 					<section class="form-section">
 						<div class="delta">Jag deltar på middag:
 							<label class="container">Ja
@@ -60,6 +72,7 @@
 								<span class="checkmark"></span>
 							  </label>
 						</div>
+						<br>
 					</section>
 					<!--MATSEKTION-->
             <section class="form-section">
@@ -101,10 +114,12 @@
             <label class="form-label" for="form-allergier"> Allergier </label>
             <input id="form-allergier" type="text"  value="" placeholder="Ex. Nötallergi" />
         </section>
-		<button type="submit">Skicka in din anmälan</button>
+		<p class="skicka">Ser du ingen Skicka-knapp?<br>Ta en printscreen på det ifyllda formuläret och skicka till Matilda.</p>
+		<br>
         </section>
+		<br>
 
-	<section class="how">
+	<section id="how" class="how">
         <div class="welcome">
 			<h2>The details</h2>
 			<h3>Var?</h3>
@@ -121,11 +136,12 @@
 
 			<h3>Känns det dyrt?</h3>
 			<p class="information">Du kan välja att vara med på allt eller på bara en av aktiviteterna. Från mig får du fika, lagemblem, fördrink och andra överraskningar.♥ </p>
+			<br>
 		</div>
 	</section>
         </form>
     </section>
-	<section class="schema">
+	<section id="schema" class="schema">
 		<div class="welcome">
 			<h2>Schema</h2>
 			<h3>14:45</h3>
@@ -143,16 +159,17 @@
 
 			<h3>20:15</h3>
 			<p class="information">Dags för fördrink och middag! <b>Restaurang</b> avslöjas samma dag. Mat behöver förbeställas och du hittar meny längre ned på sidan.</p>
+			<br>
 		</div>
+		<br>
 	</section>
-	<section class="menu">
+	<section id="menu" class="menu">
         <div class="welcome">
 			<h2> Meny </h2>
 			<p class="information">
 				Middag behöver förbeställas. Se menyn nedan och gör sedan ditt val i anmälningsformuläret.<br><br>
 
-Förrätt och huvudrätt måste förbeställas. Dessert behöver inte förbeställas utan kan beställas på plats, men om du vet vilken dessert du vill ha uppmanas du att välja den i anmälning	sformuläret.
-
+Förrätt och huvudrätt måste förbeställas. Dessert behöver inte förbeställas utan kan beställas på plats, men om du vet vilken dessert du vill ha uppmanas du att välja den i anmälning formuläret.
 <h3>Förrätter</h3><br>
 <p class="information">
 <b>Burrata</b><br>
@@ -194,11 +211,10 @@ Björnbärssorbet, brownie, chokladcrème (125 kr)</p><br>
 <p class="information">
 <b>Apple Pie</b><br>
 Bakat äpple, havrecrust, vaniljglass, salt kolasås (125 kr)</p><br>
-
 			</p>
 		</div>
 </section>
-	<section class="welcome">
+	<section id="welcome" class="welcome">
 		<h2>Vanliga frågor & svar</h2><br>
 		<p class="information">
 		<b>Vad ska jag ta med till Prison Island?</b><br>
@@ -221,5 +237,11 @@ Ja, det kan du. Om du inte vill eller hinner åka hem mellan Prison Island och m
 	Ja, Dr Swedenfeldt kommer finnas med vid behov av akut sjukvård.</p><br>
 	
 	</section>
+	<br>
+	<br>
+	<div class="scroll">
+		<a href="#scrollButton" class="scroll-button">Ta mig till toppen!</a>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
